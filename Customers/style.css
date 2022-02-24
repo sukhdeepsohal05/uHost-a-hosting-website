@@ -1,0 +1,39 @@
+main{
+    padding-top: 4.25rem;
+    margin: 2.5rem 0rem;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonial__info{
+    padding: 0px 10px;
+    width: 50%;
+}
+
+.testimonial__name{
+    color: #FE1B68;
+}
+
+.testimonial__subtitle{
+    margin: 20px 0px;
+}
+
+.testimonial__subtitle a{
+    color: #9B9B98;
+}
+
+.testimonial__image{
+    width: 50%;
+}
+
+.testimonial__image img{
+    width: 100%;
+}
+
+#customer-1 .testimonial__info{
+    text-align: right;
+}

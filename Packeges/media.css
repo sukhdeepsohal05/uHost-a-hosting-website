@@ -1,0 +1,47 @@
+@media screen and (max-width:768px){
+    .package__info{
+        padding-right: 20px;
+    }
+    .package {
+        margin: 30px auto;
+    }
+
+    #free{
+        float: none;
+        clear: none;
+        text-align: left;
+    }
+
+    .package__badge {
+        padding: 7px 60px;
+    }
+}
+
+@media screen and (max-width:426px){
+    .package {
+        margin: 30px auto;
+        width: 94vw;
+    }
+
+    @keyframes package {
+        0%{
+            transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(3px);
+        }
+        100%{
+            transform: translateY(-3px);
+        }
+    }
+
+    .package:hover{
+        animation: package 1s ease-in-out alternate infinite;
+    }
+
+    .package__badge {
+        top: 25px;
+        right: -71px;
+        font-size: 1rem;
+    }
+}

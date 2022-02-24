@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/uhost-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../shared.css">
+    <link rel="stylesheet" href="../shared media.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Strat Hosting uHost</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">
+                <div class="logo" title="Home"></div>
+            </a>
+            <input type="checkbox" id="checkbox">
+            <div class="hamburger">
+                <div></div>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="../Packeges/index.html">
+                            Packages
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Customers/index.html">
+                            Customers
+                        </a>
+                    </li>
+                    <a href="../Start Hosting/index.html" class="btn btn-active">
+                        <button>
+                            Start Hosting
+                        </button>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="signup-page">
+        <h1 class="signup-title">Awesome! Let's dive right in!</h1>
+        <form action="index.html" class="signup-form">
+            <label for="title">Title</label>
+            <select id="title">
+                <option value="mr">Mr.</option>
+                <option value="ms">Ms.</option>
+            </select>
+            <label for="first-name">First name</label>
+            <input type="text" id="first-name" required>
+            <label for="last-name">Last name</label>
+            <input type="text" id="last-name" required>
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" required placeholder="example@gmail.com">
+            <label for="password">Password</label>
+            <input type="password" id="password" required>
+            <div class="signup-form__checkbox">
+                <input type="checkbox" id="agree-terms" required checked>
+                <label for="agree-terms">Agree to
+                    <a href="#">Terms & Conditions</a>
+                </label>
+            </div>
+            <button type="submit" class="button">Sign Up</button>
+        </form>
+    </main>
+</body>
+</html>

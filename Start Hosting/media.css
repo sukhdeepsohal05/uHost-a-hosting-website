@@ -1,0 +1,36 @@
+@media screen and (max-width:768px){
+    .signup-form{
+        width: 80vw;
+    }
+
+    .signup-title {
+        font-size: 1.8rem;
+    }
+
+    .signup-form input, .signup-form select{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:426px){
+    .signup-form{
+        grid-gap: 0.3rem;
+    }
+
+    .signup-form label {
+        font-weight: bolder;
+        grid-column: 1/3;
+    }
+
+    .signup-form input, .signup-form select{
+        grid-column: 1/3;
+    }
+
+    .signup-form input, .signup-form select {
+        padding: 1px 4px;
+    }
+
+    .signup-form button{
+        padding: 6px 0px;
+    }
+}

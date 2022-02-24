@@ -1,0 +1,165 @@
+#product-overview{
+    background: radial-gradient(rgba(0, 0, 0, 0.295),rgba(0, 0, 0, 0.445) 100%), url('images/freedom.jpg') center 57px/cover no-repeat fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+#product-overview h1{
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 1.8rem;
+}
+
+.section-title{
+    color: #2DDF63;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+.plan-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.plan{
+    padding: 20px;
+    margin: 30px 0px;
+    width: 26%;
+    height: 372px;
+    text-align: center;
+    border: 2px solid #114F1E;
+    background: #D6FFDD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.plan-price{
+    margin: 10px 0px;
+}
+
+.plan-price span{
+    font-size: 1rem;
+    color: #1d1d1d;
+}
+
+.plan-list{
+    list-style: none;
+    padding: 20px 0px;
+    color: #1d1d1d;
+}
+
+.plan-list li{
+    padding: 2px 0px;
+}
+
+.plan__button{
+    background: #114F1E;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.plan button:hover{
+    background: white;
+    color: #114F1E;
+    border: 2px solid #114F1E;
+}
+
+.plan:hover{
+    transform: scale(1.05);
+}
+
+.highlighted-plan{
+    width: 28%;
+    height: 400px;
+    background: #096922;
+    color: white;
+    overflow: hidden;
+    z-index: 2;
+    position: relative;
+}
+
+.highlighted-plan h2 span{
+    color: white;
+}
+
+.highlighted-plan ul{
+    color: white;
+}
+
+.highlighted-plan .plan__button{
+    background: white;
+    color: #114F1E;
+    border: 2px solid #114F1E;
+}
+
+.highlighted-plan .plan__button:hover{
+    border: 2px solid white;
+    background: #114F1E;
+    color: white;
+}
+
+.highlighted-plan .tag {
+    background: #FF1B68;
+    color: white;
+    padding: 13px 62px;
+    position: absolute;
+    top: 30px;
+    left: -70px;
+    transform: rotate(-40deg);
+}
+
+.key-features{
+    background: #FF1B68;
+    color: white;
+    padding: 30px;
+    margin: 30px 0px;
+}
+
+#key-features__title{
+    color: white;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.key-features__list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    grid-gap: 2rem;
+}
+
+.key-features__list li {
+    width: 410px;
+}
+
+.key-features__image{
+    background: #D6FFDD;
+    border: 2px solid rgb(70, 69, 69);
+    border-radius: 50%;
+    padding: 30px;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+
+.key-features__list p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}

@@ -1,0 +1,33 @@
+@media screen and (max-width:768px){
+    .testimonial{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .testimonial__info{
+        padding: 25px 40px;
+    }
+
+    .testimonial__subtitle {
+        margin: 8px 0px;
+    }
+
+    #customer-1 .testimonial__info{
+        text-align: center;
+    }
+
+    #customer-2{
+        flex-direction: column-reverse;
+    }
+
+    .testimonial__image{
+        width: 100%;
+    }
+
+    .testimonial__info{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:426px){
+}

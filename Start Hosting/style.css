@@ -1,0 +1,70 @@
+.signup-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.signup-title{
+    color: #2DDF63;
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 2rem;
+}
+
+.signup-form{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1rem 5rem;
+    align-items: center;
+    width: 50vw;
+}
+
+.signup-form label{
+    font-weight: bolder;
+}
+
+.signup-form input, .signup-form select{
+    background: #FFC9C9;
+    border: 2px solid #FE1B68;
+    padding: 3px 10px;
+    width: 100%;
+}
+
+.signup-form select:focus, .signup-form input:focus, .signup-form select:valid, .signup-form input:valid {
+    outline: none;
+    background: #dcffdc;
+    border: 2px solid #02c902;
+}
+
+.signup-form__checkbox{
+    grid-column: 1/3;
+}
+
+.signup-form__checkbox #agree-terms{
+    width: 16px;
+    height: 16px;
+}
+
+.signup-form button{
+    grid-column: 1/3;
+    /* margin: auto; */
+    margin-top: 10px;
+    width: 184px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    background: #013600;
+    color: white;
+    border: 2px solid #013600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.signup-form button:hover{
+    background: white;
+    color: #013600;
+}

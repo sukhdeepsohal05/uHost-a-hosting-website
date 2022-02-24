@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    background: #2EDF5D;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav .logo{
+    background: url('images/uhost-icon.png') center center/98% no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li a{
+    color: #0A511C;
+    margin: 0px 10px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: "";
+    height: 3px;
+    width: 0%;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    transition: width 0.5s ease-in-out;
+    cursor: default;
+    background: white;
+}
+
+nav ul li a:hover::after, nav ul li .active::after{
+    width: 100%;
+}
+
+nav ul .btn button{
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background: #FE1B68;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+nav ul .btn button:hover::after, nav ul .btn-active::after{
+    width: 0%;
+    background: white;
+    color: #FE1B68;
+}
+
+nav ul .btn button:hover, nav ul .btn-active button{
+    background: white;
+    color: #FE1B68;
+}
+
+.footer{
+    background: black;
+    color: white;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.footer a{
+    color: white;
+    padding: 0px 10px;
+}
+
+
+
+.menu{
+    display: flex;
+}
+
+#checkbox, .hamburger{
+    display: none;
+}
